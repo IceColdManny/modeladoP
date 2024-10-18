@@ -1,0 +1,6 @@
+Este código pretende ser la representación digital de un modelo para calcular la pérdida de señal basada en la distancia que recorre la señal y cierta cantidad de cristales en ese recorrido. 
+Para este código, la señal inicial es una constante, con valor de 55, la distancia entre cristales es otra constante con valor de 1 metro, este valor se omite para hacer el código muy simple.
+Se sabe que la señal se pierde en un 10% por cada cristal atravesado, y ello se expresa en la operación que se define en la parte inicial del programa, que se hace así:
+(señal - (señal * (10% de perdida * cantidad de cristales) / 100%))
+ Se realiza una regla de tres simple y se resta el resultado a la señal inicial que permanece constante.
+Justo abajo, se realiza la única entrada de todo el código: la cantidad de cristales, que se toma para poder hacer la operación y se muestra el resultado justo abajo.
